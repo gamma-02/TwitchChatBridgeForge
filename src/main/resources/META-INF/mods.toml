@@ -29,12 +29,12 @@ displayName="TwitchChatBridgeForge" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="src/main/resources/assets/twitchchatbridgeforge/icon.png" #optional
 # A text field displayed in the mod UI
-#credits="Thanks for this example mod goes to Java" #optional
+credits="Forge port: gamma_02, Original code: pblop" #optional
 # A text field displayed in the mod UI
-#authors="Love, Cheese and small house plants" #optional
+authors="gamma_02, pblop" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-
+Forge port of pblop's Twitch Chat Bridge mod for Fabric
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.TwitchChatBridgeForge]] #optional
