@@ -1,0 +1,52 @@
+{
+  "config.twitchchatbridgeforge.title": "Twitch Chat Bridge",
+  "config.twitchchatbridgeforge.apology": "Sorry for the lack of translations here, working on it!",
+  "config.twitchchatbridgeforge.category.credentials": "Credentials",
+  "config.twitchchatbridgeforge.credentials.channel": "Twitch channel",
+  "config.twitchchatbridgeforge.credentials.username": "Username",
+  "config.twitchchatbridgeforge.credentials.username.tooltip": "Your Twitch username",
+  "config.twitchchatbridgeforge.credentials.oauthKey": "OAuth Token",
+  "config.twitchchatbridgeforge.credentials.oauthKey.tooltip": "Your Twitch OAuth token",
+  "config.twitchchatbridgeforge.category.cosmetics": "Cosmetics",
+  "config.twitchchatbridgeforge.cosmetics.prefix": "Prefix",
+  "config.twitchchatbridgeforge.cosmetics.prefix.tooltip": "Put this at the start of your messages to send them to a Twitch channel",
+  "config.twitchchatbridgeforge.cosmetics.dateFormat": "Timestamp format",
+  "config.twitchchatbridgeforge.cosmetics.dateFormat.tooltip": "Customize the timestamp format messages are going to follow",
+  "config.twitchchatbridgeforge.cosmetics.ignorelist": "Ignore list",
+  "config.twitchchatbridgeforge.cosmetics.ignorelist.tooltip": "Messages from users in this list won't be displayed",
+  "config.twitchchatbridgeforge.cosmetics.twitchWatchSuggestions": "Suggestions for /twitch watch",
+  "config.twitchchatbridgeforge.cosmetics.twitchWatchSuggestions.tooltip": "Autocomplete /twitch watch channel names with names from users in your server",
+  "config.twitchchatbridgeforge.category.broadcast": "Broadcasting",
+  "config.twitchchatbridgeforge.broadcast.toggle": "Broadcast Twitch messages",
+  "config.twitchchatbridgeforge.broadcast.toggle.tooltip": "Sends Twitch chat messages to the server chat",
+  "config.twitchchatbridgeforge.broadcast.prefix": "Broadcast message prefix",
+  "config.twitchchatbridgeforge.broadcast.prefix.tooltip": "This is going to be added to the beginning of messages broadcasted to the server",
+
+  "text.twitchchatbridgeforge.command.base.noargs1": "Welcome to the Minecraft-Twitch Bridge mod!",
+  "text.twitchchatbridgeforge.command.base.noargs2": "To enable it just do /twitch enable when you're done setting up the config.",
+
+  "text.twitchchatbridgeforge.command.disable.already_disabled": "Twitch integration is already disabled!",
+  "text.twitchchatbridgeforge.command.disable.disabled": "Twitch integration is now disabled!",
+
+  "text.twitchchatbridgeforge.command.enable.already_enabled": "Twitch integration is already enabled!",
+  "text.twitchchatbridgeforge.command.enable.set_config": "Before doing that you have to set your config!",
+  "text.twitchchatbridgeforge.command.enable.select_channel": "You won't connect to a channel because you haven't selected any. You can select a channel with /twitch watch [channel]",
+  "text.twitchchatbridgeforge.command.enable.connecting": "Connecting...",
+
+  "text.twitchchatbridgeforge.command.watch.switching": "Switching channels to '%s'...",
+  "text.twitchchatbridgeforge.command.watch.connect_on_enable": "The mod will connect to '%s' as soon as you enable it.",
+
+  "text.twitchchatbridgeforge.command.broadcast.enabled": "Broadcasting enabled",
+  "text.twitchchatbridgeforge.command.broadcast.disabled": "Broadcasting disabled",
+
+  "text.twitchchatbridgeforge.chat.integration_disabled": "Twitch integration is not enabled, to enable it do /twitch enable.",
+  "text.twitchchatbridgeforge.bot.connected": "Connected to channel '%s'",
+  "text.twitchchatbridgeforge.bot.kicked": "Kicked from the current channel because: '%s'",
+
+  "text.twitchchatbridgeforge.command.username_change_regular": "Twitch chat bot username successfully changed to {}",
+  "text.twitchchatbridgeforge.command.username_change_error_generic": "Could not change the bot username!",
+  "text.twitchchatbridgeforge.command.username_change_error_already_named": "Could not change the bot username!",
+
+  "text.twitchchatbridgeforge.command.oauth_warn": "Please put your oauth key in the config! it's not safe here!"
+
+}

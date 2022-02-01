@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gamma02.twitchchatbridgeforge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "plugin": "gamma02.twitchchatbridgeforge.mixin.CompatMixinConfigPlugin",
+  "refmap": "twitchchatbridgeforge.refmap.json",
+  "client": [
+    "ChatScreenMixin",
+    "ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
