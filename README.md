@@ -1,4 +1,5 @@
 Twitch Chat Bridge
+
 This light-weight mod links a Twitch channel's chat to your Minecraft chatbox!
 
 There are more mods that do this, but none are available for Fabric... so I made it!
